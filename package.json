@@ -1,7 +1,7 @@
 {
   "name": "electron-webpack-start",
   "version": "1.0.0",
-  "description": "Simple webpack based electron app",
+  "description": "Built from scratch, Webpack based, Electron startup app with Babel",
   "main": "dist/main.js",
   "scripts": {
     "dev": "webpack --mode development",
