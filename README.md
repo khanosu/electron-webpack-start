@@ -3,6 +3,7 @@
 Inspired by: https://github.com/deadcoder0904/electron-webpack-sample
 
 Updated all the dependencies to their latest versions, specifically updated webpack to version 4.x, and updated babel to new @babel/core etc.
+
     "@babel/core": "^7.2.2",
     
     "@babel/preset-env": "^7.2.3",
