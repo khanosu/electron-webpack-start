@@ -25,7 +25,7 @@ Updated all the dependencies to their latest versions, specifically updated webp
 Changed the webpack.config.js to use multiple Targets, as explained in webpack's documentation:
 "Although webpack does not support multiple strings being passed into the target property, you can create an isomorphic library by bundling two separate configurations": Multiple Targets: https://webpack.js.org/concepts/targets/
 
-added electron-packager to build the executable:
+Added electron-packager to build the executable (in build_dist):
 
 "scripts": {
 
