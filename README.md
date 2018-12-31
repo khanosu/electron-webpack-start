@@ -19,8 +19,13 @@ Changed the webpack.config.js to use multiple Targets, as explained in webpack's
 added electron-packager to build the executable:
 
 "scripts": {
+
     "dev": "webpack --mode development",
+    
     "prod": "webpack --mode production",
+    
     "start": "npm run dev && electron dist/main.js",
+    
     "build": "npm run prod && electron-packager . --out=build_dist --overwrite --asar --platform=win32"
+    
   },
